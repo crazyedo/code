@@ -77,7 +77,7 @@ while True:
 # lo stesso programma puo essere scritto
 #
 
-x = 0
-while x < 10:
+x = 0 # dobbiamo inizializzare la variabile
+while x < 10: # poi controlliamo che sia minore di 10
     print("ciao", x)
-    x += 1
+    x += 1 # la incre
