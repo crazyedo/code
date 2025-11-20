@@ -1,10 +1,10 @@
 # i numeri si fanno cosi
 
-print((2.23 + 2)/3)
+print((2.23 + 2) / 3)
 
 # le stringhe si fanno o con la singola quota
 
-print('Hello World!')
+print("Hello World!")
 
 # o con la doppia
 print("foaiuheifauweh")
@@ -21,3 +21,6 @@ print(
     aweoifjaew;oijfa;eowj
     """
 )
+x = 12
+y = 13
+print((x + y) * 2)
