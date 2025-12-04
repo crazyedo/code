@@ -5,6 +5,14 @@
 
 print((2.23 + 2) / 3)
 
+# operazioni matematiche
+#
+print('2 + 2', 2+2)
+print('3/2', 3/2)
+print('3 * 2', 3*2)
+print('3 % 2', 3%2) # resto della divisione
+print('2**3', 2**3) # potenza
+
 # le stringhe si fanno o con la singola quota
 
 print("Hello World!")
