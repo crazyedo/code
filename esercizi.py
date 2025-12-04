@@ -1,8 +1,3 @@
-"""
-ESERCIZI PYTHON PER PRINCIPIANTI
-Focus: cicli for, cicli while e tipi base (int, str, list)
-"""
-
 # ============================================
 # PARTE 1: CICLI FOR - BASE
 # ============================================
