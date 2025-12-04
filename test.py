@@ -81,3 +81,24 @@ x = 0 # dobbiamo inizializzare la variabile
 while x < 10: # poi controlliamo che sia minore di 10
     print("ciao", x)
     x += 1 # la incre
+
+
+
+
+# forloop prende una cosa che puo essere iterata
+# ed assegna ogni elemento alla variabile specificata
+
+
+for x in [1, 2, 3]:
+    print("list", x)
+
+# il programma sopra puo essere scritto anche in questa maniera
+
+x=1
+print("list", x)
+
+x=2
+print("list", x)
+
+x=3
+print("list", x)
