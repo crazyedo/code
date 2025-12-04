@@ -7,14 +7,20 @@ print("=== ESERCIZIO 1: Stampa numeri da 1 a 5 ===")
 # IL TUO CODICE QUI:
 
 
+for x in [
+    1,
+    2,
+    3,
+    4,
+    5,
+]:
+    print(x)
 
 
 print("\n=== ESERCIZIO 2: Stampa ogni lettera ===")
 # TODO: Usa un ciclo for per stampare ogni lettera in "PYTHON"
 word = "PYTHON"
 # IL TUO CODICE QUI:
-
-
 
 
 print("\n=== ESERCIZIO 3: Somma di numeri ===")
@@ -35,8 +41,6 @@ fruits = ["apple", "banana", "cherry", "date"]
 # TODO: Stampa ogni frutto con il suo numero di posizione (partendo da 1)
 # Esempio output: "1. apple"
 # IL TUO CODICE QUI:
-
-
 
 
 print("\n=== ESERCIZIO 5: Conta le vocali ===")
@@ -60,8 +64,6 @@ n = 5
 # IL TUO CODICE QUI:
 
 
-
-
 print("\n=== ESERCIZIO 7: Indovina il numero ===")
 # TODO: Continua a chiedere input finché l'utente indovina il numero segreto (7)
 # Suggerimento: Usa while True e break quando è corretto
@@ -72,14 +74,10 @@ secret = 7
 #     # La tua logica qui
 
 
-
-
 print("\n=== ESERCIZIO 8: Raddoppia fino a 100 ===")
 # TODO: Inizia con 1, continua a raddoppiare finché il numero supera 100
 number = 1
 # IL TUO CODICE QUI:
-
-
 
 
 # ============================================
@@ -92,14 +90,10 @@ numbers = [3, 7, 12, 18, 5, 22, 9, 14]
 # IL TUO CODICE QUI:
 
 
-
-
 print("\n=== ESERCIZIO 10: Costruisci una stringa ===")
 # TODO: Usa un ciclo for per costruire una stringa con asterischi
 # Stampa: *, **, ***, ****, *****
 # IL TUO CODICE QUI:
-
-
 
 
 # ============================================
@@ -109,8 +103,6 @@ print("\n=== ESERCIZIO 10: Costruisci una stringa ===")
 print("\n=== BONUS 1: Tabellina ===")
 # TODO: Stampa la tabellina del 7 (7 x 1 fino a 7 x 10)
 # IL TUO CODICE QUI:
-
-
 
 
 print("\n=== BONUS 2: Inverti una parola ===")
