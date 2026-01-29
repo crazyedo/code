@@ -3,7 +3,7 @@
 # dependencies = ["readchar",]
 # ///
 
-from readchar import readchar
+# from readchar import readchar
 
 # Character position
 hero_x = 2
@@ -38,7 +38,10 @@ while True:
     print('x', hero_x, 'y', hero_y)
 
     # Get single keypress (no Enter needed!)
-    key = readchar()
+    # key = readchar()
+
+    # Get keypress (Enter needed!)
+    key = input()
 
     # Move character
     if key == "w"  and hero_y >0:
