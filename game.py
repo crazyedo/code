@@ -8,21 +8,26 @@ from readchar import readchar
 # Character position
 hero_x = 2
 hero_y = 1
+hero_icon = "🔪"
+
 
 world_x = 10
 world_y = 10
+world_icon = "⬜"
+
 
 while True:
     # Clear screen
     print("\n" * 50)
 
     # Draw grid
-    for row in range(world_x):
-        for col in range(world_y):
-            if row == hero_y and col == hero_x:
-                print("😊", end=" ")
+    for y in range(world_y):
+        for x in range(world_x):
+            if y == hero_y and x == hero_x:
+                print(hero_icon, end=" ")
+
             else:
-                print("⬜", end=" ")
+                print(world_icon, end=" ")
         print()
 
 
